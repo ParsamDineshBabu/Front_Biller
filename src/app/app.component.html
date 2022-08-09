@@ -1,0 +1,111 @@
+<div class="container">
+  <h1 style="text-align:center;"></h1>
+  <mat-toolbar>
+
+    Move Money
+
+  </mat-toolbar>
+
+  <mat-sidenav-container>
+
+    <mat-sidenav mode="side" opened>
+
+      <button mat-button class="menu-button" (click)="btnClick();"> 
+
+        <span>Add Biller</span>
+
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+
+        <span>Pay And transfer</span>
+
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+
+        <span>Your Beneficiaries</span>
+
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+
+        <span>Manage Billers</span>
+
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+
+        <span>Add beneficiaries</span>
+
+      </button>
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+
+        <span>Internet banking Limits</span>
+
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+
+        <span>Manage Future Requests</span>
+
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+
+        <span>Insta Bill Pay</span>
+
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+
+        <span>Bill Payment history enquirey</span>
+
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+
+        <span>Manage Future Bill payments</span>
+
+      </button>
+
+      <mat-divider></mat-divider>
+
+    </mat-sidenav>
+
+
+    <mat-sidenav-content>
+
+      <div class="content">
+
+        <h1>Add a Biller</h1>
+
+        <p>From here, you can add a biller to pay your bills and also opt to setup auto pay.
+
+          Please ensure that you keep a recent bill handy while adding a new biller.</p>
+        <hr>
+        <app-add-abiller></app-add-abiller>
+      </div>
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
+
+</div>

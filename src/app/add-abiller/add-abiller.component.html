@@ -1,0 +1,121 @@
+<form>
+  <h2>Billing Section</h2>
+  <div class="form-group">
+    <label for="billerCategory" class="col-sm-3 control-label">
+      Select Biller Category
+    </label>
+    <div class="col-sm-6">
+      <select id="billerCategory" class="form-control">
+          <option value="0">Please Select Category</option>
+          <option value="1">Electricity</option>
+          <option value="2">DTH</option>
+          <option value="3">Water</option>
+          <option value="4">Gas</option>
+      </select>
+  </div>
+  <div class="col-sm-7"></div>
+  </div>
+
+
+  <div class="form-group">
+    <label for="billerName" class="col-sm-3 control-label">
+      Search Biller Name
+    </label>
+    <div class="col-sm-6">
+      <select id="billerName" class="form-control">
+          <option value="0">Select Biller Name </option>
+          <option value="1">Assam Power(APDCL)</option>
+          <option value="2">Southern Power Distribution(APSPDCL)</option>
+          <option value="3">DNH Power(DNHPDCL)</option>
+          <option value="4">Kerala Electricity(KSEB)</option>
+      </select>
+  </div>
+  <div class="col-sm-7"></div>
+  </div>
+  <h2>Details</h2>
+
+  <div class="form-group">
+    <label for="consumerId" class="col-sm-3 control-label">Consumer Id</label>
+    <div class="col-sm-6">
+        <input type="text" id="consumerId" class="form-control" >
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+
+  <div class="form-group">
+    <label for="nickName" class="col-sm-3 control-label">Nickname(Optional)</label>
+    <div class="col-sm-6">
+        <input type="text" id="nickName" class="form-control" >
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+  <p>Auto Billpay Setup<p>
+  <div class="form-group">
+  <div class="form-check form-check-inline">  
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">  
+    <label class="form-check-label" for="inlineRadio1">Yes</label>
+  </div>
+    <div class="form-check form-check-inline"> 
+       <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">  
+       <label class="form-check-label" for="inlineRadio2">No</label>
+    </div>
+  </div>
+  <p>
+    Auto bill pay is supported by this biller for both Bank account and Credit card payment method
+  </p>
+  <hr>
+  <mat-card>
+  <div class="col-sm-12">    
+    <div class="form-check">     
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>      
+      <label class="form-check-label" for="invalidCheck2">        
+        I have read and agree to abide by the <b>Terms & Conditions</b>
+  </label>
+    </div>
+    </div>
+  </mat-card>
+  <hr>
+  <div>
+    <div class="infor">
+
+      <h2>Important Information</h2>
+  
+      <p>1.To register multiple billers for a single category please use separate forms. Before registering
+  
+         a biller please check if the biller is on the list provided by the bank.</p>
+  
+      <p>2.You can only register a biller with whom the Bank already has a tie-up. To find out the list of
+  
+        registered billers you can call-up the contact center, check-up the list of billers on
+  
+         www.hsbc.co.in or contact your nearest HSBC branch.</p>
+  
+      <p>3.When you register for a biller on the ‘View and Pay’ service, you will be able to make payments
+  
+        to such billers through the ATM,PhoneBanking and Internet Banking. Registration for the service is
+  
+        not immediate and the time taken for registration varies from biller to biller. For detailed listing
+  
+        of registration time kindly refer to www.hsbc.co.in</p>
+  
+      <p>4.Upon successful registration, you will be intimated on the E-mail ID provided by you in the form.
+  
+        For any queries, you can contact PhoneBanking or send a secured message through HSBC’s Internet
+  
+        Banking.</p>
+  
+      </div>
+
+
+  </div>
+  <!-- <input type="checkbox" name="active" ngModel required> -->
+  <!-- <button type="button" class="btn btn-secondary">Cancel</button> -->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12 bg-light text-right">
+            <!-- <button type="button" class="btn btn-primary">Cancel</button> -->
+            <button type="button" class="btn btn-success">Continue</button>
+        </div>
+    </div>
+  </div>
+</form>
